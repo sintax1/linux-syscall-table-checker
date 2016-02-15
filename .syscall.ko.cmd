@@ -1,0 +1,1 @@
+cmd_/root/kernelmod/syscall.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-4-common/scripts/module-common.lds --build-id  -o /root/kernelmod/syscall.ko /root/kernelmod/syscall.o /root/kernelmod/syscall.mod.o
